@@ -1,0 +1,29 @@
+{
+  "name": "employee-list",
+  "version": "1.0.0",
+  "description": "Employee list",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "wolfery",
+  "dependencies": {
+    "@types/react": "^15.0.22",
+    "@types/react-dom": "^15.5.0",
+    "@types/react-router": "^4.0.4",
+    "json-loader": "^0.5.4",
+    "material-ui": "^0.17.4",
+    "mobx": "^3.1.9",
+    "mobx-react": "^4.1.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "uuid": "^3.0.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.3"
+  }
+}
