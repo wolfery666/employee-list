@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {Provider} from 'mobx-react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+//import {BrowserRouter as Router, Route, Link} from 'react-router-dom'; // for server variant
+import {HashRouter as Router, Route, Link} from 'react-router-dom'; // for local variant
 import * as injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
